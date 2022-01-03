@@ -1,1 +1,1 @@
-# rsschool-cv
+https://exebits.github.io/rsschool-cv/cv

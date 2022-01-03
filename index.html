@@ -90,13 +90,13 @@
                 function Ves(objForm) {
                     var massa = objForm.weight.value;
                     var diapazon;
-                    if (massa > 0 && massa < 2) {
+                    if (massa > 0 && massa &lt; 2) {
                         diapazon = "7 руб.";
-                        } else if (massa >= 2 && massa < 3) {
+                        } else if (massa >= 2 && massa &lt; 3) {
                         diapazon = "7.6 руб.";
-                        } else if (massa >= 3 && massa < 5) {
+                        } else if (massa >= 3 && massa &lt; 5) {
                         diapazon = "8.1 руб.";
-                        } else if (massa >= 5 && massa < 10) {
+                        } else if (massa >= 5 && massa &lt; 10) {
                         diapazon = "8.8 руб.";
                     }
                     diap.innerHTML = diapazon;

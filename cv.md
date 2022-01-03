@@ -6,10 +6,14 @@
 
 ### Contact
 
-**Phone:** +375 (29) 204 77 61
-**Mail:** email@roman.by
-**Discord:** https://discordapp.com/users/exebits#4925/
-**Github:** https://github.com/exebits
+**Phone:** +375 (29) 204 77 61  
+
+**Mail:** email@roman.by  
+
+**Discord:** https://discordapp.com/users/exebits#4925/  
+
+**Github:** https://github.com/exebits  
+
 **RS School:** https://rs.school/js/
 
 ### Experience
@@ -34,9 +38,12 @@ Brest State Technical University
 
 ### Knowledge of foreign languages
 
-**English** - A2
-**Polish** - A1
-**Belarusian** - native
+**English** - A2  
+
+**Polish** - A1  
+
+**Belarusian** - native  
+
 **Russian** - native
 
 ### Code example

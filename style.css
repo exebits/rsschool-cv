@@ -103,7 +103,7 @@ header {
     font-size: 1.5em;
   }
   .twoflexbs,
-  #portfolio_block,
+  .portfolio_block,
   main,
   nav ul {
     flex-direction: column;
@@ -223,17 +223,19 @@ figure {
     display: inline-flex;
   }
 }
-#portfolio_block {
+.portfolio_block {
   display: flex;
+  margin-bottom: 10px;
 }
 .portfolio_item {
   flex-basis: 50%;
   margin: 0 5px;
+  border-bottom: 1px solid var(--second_color);
 }
-#portfolio_block img {
+.portfolio_block img {
   width: 100%;
 }
-#portfolio_block img:hover{filter: grayscale(.75)}
+.portfolio_block img:hover{filter: grayscale(.75)}
 pre {
   white-space: pre-wrap;
 }

@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="author" content="exebits@gmail.com" />
+    <meta name="author" content="email@roman.by" />
     <meta name="theme-color" content="#398000" />
     <title>CV Kuksenok Roman Rashitovich</title>
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Roman's CV created at the «JavaScript/Front-end» course."
+    />
+    <link rel="stylesheet" href="style.css" />
     <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
     <link href="images/webclip.jpg" rel="apple-touch-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,23 +77,90 @@
           <p>Brest State Technical University</p>
           <p><strong>Major:</strong> IT, Systems Engineer</p>
         </section>
-        <section>
+        <section id="languages">
           <h3>Knowledge of foreign languages</h3>
           <p><strong>English -</strong> A2</p>
           <p><strong>Polish -</strong> A1</p>
           <p><strong>Belarusian -</strong> native</p>
           <p><strong>Russian -</strong> native</p>
         </section>
-        <section>
+        <section id="code_example">
           <h3>Code example</h3>
-          <pre><code>111111 1111 01010101 0101</code></pre>
+          <pre>
+              <code>
+                function Ves(objForm) {
+                    var massa = objForm.weight.value;
+                    var diapazon;
+                    if (massa > 0 && massa < 2) {
+                        diapazon = "7 руб.";
+                        } else if (massa >= 2 && massa < 3) {
+                        diapazon = "7.6 руб.";
+                        } else if (massa >= 3 && massa < 5) {
+                        diapazon = "8.1 руб.";
+                        } else if (massa >= 5 && massa < 10) {
+                        diapazon = "8.8 руб.";
+                    }
+                    diap.innerHTML = diapazon;
+                }
+                </code>
+            </pre>
         </section>
         <section id="portfolio">
           <h3>Portfolio</h3>
-          <div class="flex-container">
-            <div class="flex-item one"><p>Текст1</p></div>
-            <div class="flex-item two"><p>Текст1</p></div>
-            <div class="flex-item three"><p>Текст1</p></div>
+          <div id="portfolio_block">
+            <div class="portfolio_item" id="project1">
+              <p>
+                <a
+                  href="https://restavracija-vann.com/ru/"
+                  title="go to the site"
+                  target="_blank"
+                  >restavracija-vann.com</a
+                >
+              </p>
+              <a
+                href="https://restavracija-vann.com/ru/"
+                title="go to the site"
+                target="_blank"
+                ><img src="images/project1.jpg" alt="project1"
+              /></a>
+              <ul>
+                <li>
+                  <strong>SEO:</strong> Top 1-3 in search engines in more than
+                  2,500 cities in Russia, Belarus, Ukraine and Kazakhstan.
+                </li>
+                <li><strong>CMS:</strong> Wordpress.</li>
+                <li>
+                  <strong>PHP:</strong> Placement of telephone numbers and
+                  postal notices by city.
+                </li>
+              </ul>
+            </div>
+            <div class="portfolio_item" id="project2">
+                <p>
+                  <a
+                    href="https://www.netzbarkeit.ch/"
+                    title="go to the site"
+                    target="_blank"
+                    >netzbarkeit.ch</a
+                  >
+                </p>
+                <a
+                  href="https://www.netzbarkeit.ch/"
+                  title="go to the site"
+                  target="_blank"
+                  ><img src="images/project2.jpg" alt="project1"
+                /></a>
+                <ul>
+                  <li>
+                    <strong>SEO:</strong> Top 1-3 in search engines in Zurich.
+                  </li>
+                  <li><strong>CMS:</strong> Wordpress.</li>
+                  <li>
+                    <strong>PHP:</strong> Placement of telephone numbers and
+                    postal notices by city.
+                  </li>
+                </ul>
+              </div>
           </div>
         </section>
       </section>
@@ -171,11 +241,11 @@
           <ul>
             <li>
               <i class="fas fa-rocket"></i><span>SEO</span
-              ><meter value="95" max="100" low="10" high="60"></meter>
+              ><meter value="90" max="100" low="10" high="60"></meter>
             </li>
             <li>
               <i class="fab fa-html5"></i>HTML<meter
-                value="95"
+                value="85"
                 max="100"
                 low="10"
                 high="60"
@@ -183,7 +253,7 @@
             </li>
             <li>
               <i class="fab fa-css3"></i>CSS<meter
-                value="95"
+                value="80"
                 max="100"
                 low="10"
                 high="60"
@@ -241,7 +311,7 @@
       </div>
       <div class="center">
         <a title="Go on top" href="#"><i class="fas fa-arrow-up"></i></a>
-        <div>&copy;2021</div>
+        <div>&copy;2022</div>
       </div>
       <div>
         <a title="rsschool" href="https://rs.school/js/" target="_blank"
